@@ -1,12 +1,12 @@
-/*-------------------------------------------------------
+﻿/*-------------------------------------------------------
 *		       Teach Yourself C++
 *
 * Exercise 1.3 :-
 *
 *    Create function called **min()** that returns the
-*    smaller of the two numeric arguments. Overload 
+*    smaller of the two numeric arguments. Overload
 *    **min()** three ways: char, int and double.
-\*.-------------------------------------�---------------*/
+\*.-------------------------------------—---------------*/
 
 #include <iostream>
 
@@ -70,9 +70,9 @@ int main()
      cout << "***********************************" << endl;
      cout << "      Program to demonstrate       " << endl;
      cout << "      Function Overloading..	" << endl;
-     cout << "       (finding minimum)		" << endl;   
+     cout << "       (finding minimum)		" << endl;
      cout << "***********************************\n" << endl;
-     
+
      cout << "Enter   1 to compare Integers,\n\t2 to compare Doubles,\n\t3 to compare Chars\n" << endl;
      int choice;
      cin >> choice;
@@ -126,7 +126,7 @@ int main()
      {
 	   cout << "\nInvalid selection.\nPlease restart the program." << endl;		//outputting invalid message
      }
-     
+
 
      return 0;
 }
